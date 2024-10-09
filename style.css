@@ -614,7 +614,8 @@ footer {
 
 @media (max-width: 480px) {
     .footer-links a {
-        display: block;
+        display: flex;
+        margin: 0px 20px;
         flex-wrap: wrap;        
         font-size: 8px;
         gap: 2px;
