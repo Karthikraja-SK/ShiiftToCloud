@@ -601,11 +601,14 @@ footer {
 
     .footer-links {
         display: block;
-        flex-wrap: wrap;        
+        flex-wrap: nowrap;        
         font-size: 8px;
         gap: 2px;
         justify-content: center; 
         
+    }
+    .footer-links a::after {
+        content: "";   
     }
 }
 
@@ -617,5 +620,8 @@ footer {
         gap: 2px;
         justify-content: center;
      
+    }
+    .footer-links a::after {
+        content: "";   
     }
 }
